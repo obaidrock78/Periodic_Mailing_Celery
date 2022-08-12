@@ -19,7 +19,7 @@ app.conf.beat_schedule = {
     'send-mail-every-day-at-8': {
         'task': 'send_mail_app.tasks.send_mail_func',
         'schedule': crontab(hour=0, minute=46, day_of_month=19, month_of_year = 6),
-        #'args': (2,)
+
     }
     
 }
