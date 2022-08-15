@@ -24,7 +24,7 @@ app.conf.beat_schedule = {
     
 }
 
-# Celery Schedules - https://docs.celeryproject.org/en/stable/reference/celery.schedules.html
+
 
 app.autodiscover_tasks()
 
