@@ -8,6 +8,7 @@ import json
 # Create your views here.
 def test(request):
     test_func.delay()
+    s1=50
     return HttpResponse("Done")
 
 def send_mail_to_all(request):
